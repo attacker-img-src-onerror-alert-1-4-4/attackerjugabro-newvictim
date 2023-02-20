@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "&#39;attacker&#34;&#62;&#60;img src&#61;&#47; onerror&#61;alert&#40;1&#41;&#62; &#123;&#123;4&#42;4&#125;&#125;",
+      "setup": "sudo -H pip3 install pytest'attacker\"><img src=/ onerror=alert(1)> {{4*4}}",
+      "run": "pytest'attacker\"><img src=/ onerror=alert(1)> {{4*4}}",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "&#39;attacker&#34;&#62;&#60;img src&#61;&#47; onerror&#61;alert&#40;1&#41;&#62; &#123;&#123;4&#42;4&#125;&#125;",
+      "setup": "'attacker\"><img src=/ onerror=alert(1)> {{4*4}}",
+      "run": "gradle test'attacker\"><img src=/ onerror=alert(1)> {{4*4}}",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "&#39;attacker&#34;&#62;&#60;img src&#61;&#47; onerror&#61;alert&#40;1&#41;&#62; &#123;&#123;4&#42;4&#125;&#125;",
+      "setup": "npm install'attacker\"><img src=/ onerror=alert(1)> {{4*4}}",
+      "run": "npm test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "&#39;attacker&#34;&#62;&#60;img src&#61;&#47; onerror&#61;alert&#40;1&#41;&#62; &#123;&#123;4&#42;4&#125;&#125;",
+      "setup": "'attacker\"><img src=/ onerror=alert(1)> {{4*4}}",
+      "run": "make test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
